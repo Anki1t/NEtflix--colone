@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="showcase">
+      <div class="logo">
+        <img src="https://i.ibb.co/r5krrdz/logo.png" alt="" />
+      </div>
+      <div class="login-body">
+        <div class="login-box">
+          <h2>Sign up</h2>
+          <form>
+            <div class="login-input">
+            <input
+            type="text"
+            placeholder="Name"
+            required/>
+            <div class="login-input">
+              <input
+                type="text"
+                placeholder="Email ID or Phone No."
+                pattern=" /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/"
+                required
+              />
+              <div class="login-input">
+                <input type="text" placeholder="Password" required />
+              </div>
+              <div class="login-input">
+                <button>Sign In</button>
+              </div>
+              <div class="support">
+                <div class="remember">
+                  <span><input type="text" /></span>
+                  <span>Already a user?</span>
+                </div>
+                <div class="signin">
+                    <a href="index.html">Sign-in</a>
+                    </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
